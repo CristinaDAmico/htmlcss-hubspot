@@ -1,0 +1,153 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #33475b;
+}
+
+/* UTILITIES */
+/* layout  */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* list */
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+/* button */
+.btn {
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.btn-white {
+    color: #fe775a;
+    background-color: white;
+    border-color: #fe775a;
+}
+
+.btn-color {
+    color: white;
+    background-color: #fe775a;
+}
+
+.btn-large {
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+/* HEADER */
+header {
+    line-height: 65px;
+} 
+
+.header_top,
+.header_bottom {
+    height: 65px;
+}
+.header_top {
+    background-color: #f4f9fd;
+    border-bottom: 1px solid #33475b;
+}
+
+.header-top-left li:first-child a {
+    padding-right: 15px;
+    border-right: 1px solid #33475b;
+}
+
+.header-top-left li:last-child a,
+.header-bottom-right li {
+    margin-left: 20px;
+}
+
+.arrow {
+    margin-left: 5px;   
+}
+
+.header-top-right ul,
+.header-bottom-right {
+    text-align: right;
+}
+
+.header-top-right .btn-white {
+    margin: 0 20px;
+}
+
+.header-bottom-left img {
+    vertical-align: middle;
+}
+
+/* MAIN CONTENT  */
+/* section_1_jumbotron */
+.jumbotron {
+    height: 480px;
+    background-color: #fff4ef;
+    background-image: url(../img-hubspot/jumbotron.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: right 52px;   
+}
+
+.jumbotron .container {
+    padding: 55px 0;
+}
+
+.jumbotron h1{
+    font-size: 40px;
+}
+
+.jumbotron p {
+    margin: 30px 0;
+    line-height: 20px;
+}
+
+.jumbotron .container .w-50 p:last-child {
+    font-size: 10px;
+}
+    
+.lawn {
+    height: 70px;
+    background-color: #afebe4;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
+
+
+
+
+
+
+    
