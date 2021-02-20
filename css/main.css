@@ -11,11 +11,23 @@ body {
     color: #33475b;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 /* UTILITIES */
 /* layout  */
 .container {
     width: 1000px;
     margin: 0 auto;
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .w-50 {
@@ -67,10 +79,6 @@ ul a {
 .btn-large {
     padding: 15px 25px;
     display: inline-block;
-}
-
-h3 {
-    font-size: 20px;
 }
 
 /* HEADER */
@@ -151,6 +159,7 @@ header {
 
 /* section_2 */
 .section_2 {
+    padding-bottom: 40px;
     background-color: #f4f9fd;
     line-height: 25px;
 }
@@ -163,10 +172,6 @@ header {
 
 .subsection.one img {
     width: 25%;
-}
-
-.subsection.one h2 {
-    font-size: 25px;
 }
 
 .subsection.one p {
@@ -203,7 +208,6 @@ header {
 }
 
 .subsection2-right h3 {
-    font-size: 20px;
     margin-bottom: 25px;
 }
 
@@ -223,14 +227,13 @@ header {
 /* subsection_3  */
 .subsection.three {
     height: 530px;
-    margin: 40px 0;
+    margin-top: 40px;
 }
 .subsection.three .columns {
     width: 30%;
     height: 100%;
     text-align: center;
     padding: 15px;
-    border: 1px solid black;
     background-color: white;
 }
 
@@ -264,10 +267,56 @@ header {
     margin-top: 38px;
 }
 
+.subsection.two,
+.subsection.three .columns {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+}
 
+/* section_3 */
+.section_3 {
+    /* height: 560px; */
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    background-image: linear-gradient(to bottom right, #00abb6, #00b6ad);
+}
 
+.section_3 p {
+    margin: 25px 0;
+    line-height: 25px;
+}
 
+.section_3 .row {
+    height: 150px;   
+}
 
+.section_3 .row.one {
+    border-bottom: 1px solid;
+}
+
+.row .number {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.row .cella-text {
+    font-size: 10px;
+}
+
+.row .cella:not(:last-child) {
+    height: 100%;
+    border-right: 1px solid;
+}
+
+.row img {
+    margin-top: 15px;
+}
+
+.cella.eight img {
+    padding-top: 4%;
+}
 
 
 
