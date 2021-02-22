@@ -385,6 +385,58 @@ header {
     width: 55%;
 }
 
+/* FOOTER  */
+footer {
+    margin-top: 20px;
+    padding: 30px 0;
+    color: #dadee0;
+    background-color: #32495b;
+}
+
+footer .nav-top div {
+    height: 100%;
+}
+
+footer .nav-top li {
+    display: block;
+    line-height: 30px;
+}
+
+footer li:first-child {
+    margin-bottom: 10px;
+}
+
+footer .btn {
+    display: inline-block;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 15px 0;
+    background: #dadee0;
+}
+
+footer i {
+    color: #dadee0;
+    margin-right: 15px;
+}
+
+footer .languages {
+    text-align: center;
+    margin: 50px auto 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadee0;
+}
+
+footer .languages li {
+    margin: 0 10px;
+}
+
+.footer-privacy {
+    text-align: right;
+}
+
+.footer-privacy li {
+    margin-left: 10px;
+}
 
 
 
