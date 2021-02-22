@@ -19,6 +19,22 @@ h3 {
     font-size: 20px;
 }
 
+.font-small {
+    font-size: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.line-h {
+    line-height: 25px;
+}
+
 /* UTILITIES */
 /* layout  */
 .container {
@@ -61,6 +77,10 @@ li {
 ul a {
     text-decoration: none;
     color: #33475b;
+}
+
+.display-block {
+    display: block;
 }
 
 /* button */
@@ -117,11 +137,6 @@ header {
     margin-left: 5px;   
 }
 
-.header-top-right ul,
-.header-bottom-right {
-    text-align: right;
-}
-
 .header-top-right .btn-white {
     margin: 0 20px;
 }
@@ -136,9 +151,9 @@ header {
     height: 480px;
     background-color: #fff4ef;
     background-image: url(../img-hubspot/jumbotron.png);
-    background-size: 1000px;
+    background-size: 1150px;
     background-repeat: no-repeat;
-    background-position: right 52px;   
+    background-position: right -12px;   
 }
 
 .jumbotron .container {
@@ -151,13 +166,8 @@ header {
 
 .jumbotron p {
     margin: 30px 0;
-    line-height: 25px;
 }
-
-.jumbotron .container .w-50 p:last-child {
-    font-size: 10px;
-}
-    
+  
 .lawn {
     height: 70px;
     background-color: #afebe4;
@@ -169,13 +179,11 @@ header {
 .section_2 {
     padding-bottom: 40px;
     background-color: #f4f9fd;
-    line-height: 25px;
 }
 
 /* subsection_1 */
 .subsection.one {
     padding: 45px 115px;
-    text-align: center;
 }
 
 .subsection.one img {
@@ -190,10 +198,6 @@ header {
 .subsection.two {
     padding: 50px 0;
     background-color: #fff;
-}
-
-.subsection2-left {
-    text-align: center;
 }
 
 .subsection2-left img {
@@ -238,7 +242,6 @@ header {
 .subsection.three .columns {
     width: 30%;
     height: 100%;
-    text-align: center;
     padding: 15px;
     background-color: white;
 }
@@ -265,10 +268,6 @@ header {
     line-height: 15px;
 }
 
-.columns li {
-    display: block;
-}
-
 .columns a {
     margin-top: 38px;
 }
@@ -281,7 +280,6 @@ header {
 
 /* section_3 */
 .section_3 {
-    text-align: center;
     padding: 40px 0;
     color: white;
     background-image: linear-gradient(to bottom right, #00abb6, #00b6ad);
@@ -289,7 +287,6 @@ header {
 
 .section_3 p {
     margin: 25px 0;
-    line-height: 25px;
 }
 
 .section_3 .row {
@@ -306,11 +303,7 @@ header {
     margin: 10px 0;
 }
 
-.row .cella-text {
-    font-size: 10px;
-}
-
-.row .cella:not(:last-child) {
+.row .cell:not(:last-child) {
     height: 100%;
     border-right: 1px solid;
 }
@@ -319,7 +312,7 @@ header {
     margin-top: 15px;
 }
 
-.cella.eight img {
+.cell.eight img {
     padding-top: 4%;
 }
 
@@ -330,11 +323,6 @@ header {
 
 .section_4 .section-left {
     padding: 20px 60px;
-}
-
-.section_4 li {
-    display: block;
-    line-height: 25px;
 }
 
 .section_4 li:first-child {
@@ -351,11 +339,6 @@ header {
     margin-top: 35px;
 }
 
-.section_4 .row-image {
-    line-height: 25px;
-    text-align: right;
-}
-
 .section_4 .section-right img {
     width: 15%;
     margin: 10px;
@@ -369,16 +352,7 @@ header {
 }
 
 .section5-text:first-child p{
-    line-height: 25px;
     margin: 30px 0 20px 0;
-}
-
-.section5-text p:last-child {
-    font-size: 10px;
-}
-
-.section5-image {
-    text-align: right; 
 }
 
 .section5-image img {
@@ -393,12 +367,7 @@ footer {
     background-color: #32495b;
 }
 
-footer .nav-top div {
-    height: 100%;
-}
-
 footer .nav-top li {
-    display: block;
     line-height: 30px;
 }
 
@@ -408,7 +377,6 @@ footer li:first-child {
 
 footer .btn {
     display: inline-block;
-    font-size: 10px;
     padding: 5px 10px;
     margin: 15px 0;
     background: #dadee0;
@@ -420,7 +388,6 @@ footer i {
 }
 
 footer .languages {
-    text-align: center;
     margin: 50px auto 25px;
     padding-bottom: 20px;
     border-bottom: 1px solid #dadee0;
@@ -428,10 +395,6 @@ footer .languages {
 
 footer .languages li {
     margin: 0 10px;
-}
-
-.footer-privacy {
-    text-align: right;
 }
 
 .footer-privacy li {
